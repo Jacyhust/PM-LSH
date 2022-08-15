@@ -85,4 +85,24 @@ The experimental result is saved in the directory `./pmlsh/experiment/` as the f
 ## Reference
 **[Bolong Zheng, Xi Zhao, Lianggui Weng, Nguyen Quoc Viet Hung, Hang Liu, Christian S. Jensen: PM-LSH: A Fast and Accurate LSH Framework for High-Dimensional Approximate NN Search. Proc. VLDB Endow. 13(5): 643-655 (2020) (One of the best PVLDB 2020 papers)](http://www.vldb.org/pvldb/vol13/p643-zheng.pdf)**
 
+Please use the following bibtex to cite this work when you use **PM-LSH** in your paper.
+
+```tex
+@article{DBLP:journals/pvldb/ZhengZWHLJ20,
+	author    = {Bolong Zheng and
+	Xi Zhao and
+	Lianggui Weng and
+	Nguyen Quoc Viet Hung and
+	Hang Liu and
+	Christian S. Jensen},
+	title     = {{PM-LSH:} {A} Fast and Accurate {LSH} Framework for High-Dimensional
+	Approximate {NN} Search},
+	journal   = {Proc. {VLDB} Endow.},
+	volume    = {13},
+	number    = {5},
+	pages     = {643--655},
+	year      = {2020}
+}
+```
+
 If you meet any issue on the code or take interest in our work, please feel free to contact me (xizhao@ust.hk) or Prof. Zheng (zblchris@gmail.com). Thank you.
