@@ -105,4 +105,4 @@ Please use the following bibtex to cite this work when you use **PM-LSH** in you
 }
 ```
 
-If you meet any issue on the code or take interest in our work, please feel free to contact me (xizhao@ust.hk) or Prof. Zheng (zblchris@gmail.com). Thank you.
+If you meet any issue on the code or take interest in our work, please feel free to contact me (xzhaoca@cse.ust.hk) or Prof. Zheng (zblchris@gmail.com). Thank you.
