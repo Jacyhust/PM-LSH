@@ -39,8 +39,8 @@ DataMetric highQueryData;
 using namespace std;
 int main(int argc, char const* argv[])
 {
-	std::cout << BOLDRED << "aaaaaaaaaaa\n" << RESET;
-	return 0;
+	//std::cout << BOLDRED << "aaaaaaaaaaa\n" << RESET;
+	//return 0;
 	Config::dataSetName = "audio";
 	Config::lowDim = 15;
 	Config::highDim = 192;
@@ -57,10 +57,10 @@ int main(int argc, char const* argv[])
 	Config::t = MyFunc::Ccal_thresh(Config::lowDim, Config::alpha1);
 	Config::search_Radius = 3.0;
 	
-	if (argc != 8) {
-		std::cout << "Usage: pmlsh datasetName n dim m c beta R_min \n\n";
-		exit(-1);
-	}
+	//if (argc != 8) {
+	//	std::cout << "Usage: pmlsh datasetName n dim m c beta R_min \n\n";
+	//	exit(-1);
+	//}
 
 	//mnist 59800 784 15 1.5 0.2 20.0
 	//audio 54187 192 15 1.5 0.2 1.0
@@ -132,6 +132,7 @@ void load_data()
 	E2LSH* e2lsh = new E2LSH;
 	Config config;
 	e2lsh->constructTable(config);
+	//e2lsh->showInfo();
 	lowData.lowerDimFromAnother(highData, e2lsh, config);
 	lowQueryData.lowerDimFromAnother(highQueryData, e2lsh, config);
 	cout << "FINISH HASHING WITH TIME: " << timer.elapsed() << " s.\n\n";

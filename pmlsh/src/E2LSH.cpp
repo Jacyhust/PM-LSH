@@ -31,5 +31,7 @@ void E2LSH::constructParam(Config& config)
 		for (unsigned i = 0; i < dim; ++i){
 			iter->emplace_back(nd(rng));
 		}
-	}	
+	}
+
+
 }
