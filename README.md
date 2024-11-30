@@ -26,7 +26,7 @@ We can use **Visual Studio 2019** (Other version of Visual Studio should also wo
 cd ./pmLSH
 make
 ```
-The excutable file is then in dbLSH directory, called as `pmlsh`
+The excutable file is then in pmLSH directory, called as `pmlsh`
 
 ## Usage
 
